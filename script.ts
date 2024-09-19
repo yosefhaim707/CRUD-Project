@@ -1,10 +1,14 @@
 const input = document.getElementById('add-input') as HTMLInputElement;
 const button = document.getElementById('add-button') as HTMLButtonElement;
 
-interface Task {
-    id?: 
+enum Status {
+    Available = 'available',
+    
 }
 
-function createTaskElement(task: Task): HTMLDivElement {
-    
+interface Scooter {
+    id?: string,
+    model: string,
+    batteryLevel: number,
+
 }
